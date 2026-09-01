@@ -1,7 +1,12 @@
 # MyExamBuilder
-> An automated system to generate specification aligned A Level Mathematics practice papers
+> An automated system for generating specification aligned A Level Mathematics practice papers from a structured question bank.
 
 ## Overview
+
+This resporitry documents my engineering process behind MyExamBuilder, including the analysis, design decisions, algorithms and testing used during development.
+
+The majority of the source code is intentionally kept private
+
 The system involves a structured question bank alongside exam analysis and algorithmic generation to create new papers whilst maintaining the structure and characteristics of real papers
 
 The project involves more than simply selecting questions at random the generation process considers many factors:
@@ -11,14 +16,10 @@ The project involves more than simply selecting questions at random the generati
 - Difficulty / mark progression
 - Paper variation
 
-This resporitry documents my engineering process behind MyExamBuilder, including the analysis, design decisions, algorithms and testing used during development.
-
-The majority of the source code is intentionally kept private
-
 --- 
 
 ## The Problem
-During A Level preparation many students exhaust the limited supply of official exam papers (to date only 16 official past papers are available with many used in school mock exams) months before their exam season leading to many students feeling under prepared when it comes to the real thing or having to redo exams they have already done. 
+During A Level preparation many students exhaust the limited supply of official exam papers months before their exam season leading to many students feeling under prepared when it comes to the real thing or having to redo exams they have already done. 
 MyExamBuilder aims to solve this problem by allowing students to create as many practice exams as they want from a large question bank.
 
 ## Features

@@ -31,12 +31,12 @@ MyExamBuilder aims to solve this problem by allowing students to create as many 
 This is an image giving a rough overview of the data pipeline and overall structure of the project, each section is gone into more detail in their individual sections in the repository
 
 ## Status & Roadmap
-[X] Data preparation
-[X] Data analysis
-[.] Paper Generation
-[] REST API Integration
-[] Web Integration
-[] Testing
+- [X] Data preparation
+- [X] Data analysis
+- [ ] Paper Generation (Current phase)
+- [ ] REST API Integration
+- [ ] Web Integration
+- [ ] Testing
 
 Currently I am in the process of designing a more suitable paper generation algorithim which is intended to make the papers generate with a more realistic difficulty progression and to improve the visual presentation of the paper.
 

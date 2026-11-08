@@ -34,14 +34,18 @@ This is an image giving a rough overview of the data pipeline and overall struct
 ## Status & Roadmap
 - [X] Data preparation
 - [X] Data analysis
-- [ ] Paper Generation (Current phase)
-- [ ] REST API Integration
-- [ ] Web Integration
-- [ ] Testing
+- [X] Paper Generation (Current phase)
+- [X] REST API Integration
+- [X] Web Integration
+- [X] Testing
 
 Currently I am in the process of designing a more suitable paper generation algorithim which is intended to make the papers generate with a more realistic difficulty progression and to improve the visual presentation of the paper.
 
 After this the paper generation logic will be tested and the test outputs put on this repo I will move onto designing how the REST API implementation will work in order to ensure that papers can be generated but by only authorised users.
 
+Currently I am in the process of designing how mark schemes will be extracted in such a way that they can be linked with the questions they are associated with. The current method that is likely to be implemented is similar to how questions are split:
+  1 - Mark scheme split into individual questions 
+  2 - Check the total number of marks
+  3 - How 
 
 
